@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>文字對齊</title>
+    <meta charset="utf-8" />
+    <style>
+      h1{text-align:left;}  /*靠左對齊*/
+      h2{text-align:right;} /*靠右對齊*/
+      h3{text-align:center;}  /*靠中對齊*/
+      h4{text-align:justify;} /*左右切平*/
+    </style>
+  </head>
+  <body>
+    <h1>靠左對齊</h1>
+    <h2>靠右對齊</h2>
+    <h3>置中對齊</h3>
+    <h4>
+      この混沌とした令和のインターネットを照らす一筋の光
+      電子の海を漂うオタクに笑顔を
+      未来の平和をお約束 躁鬱だけどまかせとけ
+      インターネット・エンジェル ただいま降臨
+    </h4>
+  </body>
+</html>
