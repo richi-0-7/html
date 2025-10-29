@@ -1,0 +1,28 @@
+<html>
+    <head>
+      <title>字元間距</title>
+      <meta charset="utf-8" />
+      <style>
+        #ls1{letter-spacing: 2em;}
+        /*#ls1 
+          代表 ID 選擇器
+          1.一個網頁中 每個 ID 應該只出現一次。
+          2.在 CSS 的優先順序（Specificity）中，ID 的權重比 class 高。 */
+        .ls2{letter-spacing: -2px;}
+        /*.ls2 
+          代表 class 選擇器
+          1.用來選取 HTML 中 class="ls1" 的一個或多個元素。
+          2.可以重複使用在多個元素上。
+          3.在 CSS 優先權上比 ID 低。*/
+      </style>
+    </head>
+    <body>
+        <h4>這是正常的字元間距</h4>
+        <h4 id = "ls1">這是較大的字元間距</h4><br>    <!--<id>選擇器的對應標籤-->
+        <span class ="ls2">這是較小的字元間距</span>    <!--<class>選擇器的對應標籤-->
+        <!--<span>：
+          是一個 行內元素（inline element），
+          1.它不會自動換行，常用來在文字中局部套用樣式。
+          2.它不像 <div>、<h1> 那樣會獨占一行。-->
+    </body>
+</html>
